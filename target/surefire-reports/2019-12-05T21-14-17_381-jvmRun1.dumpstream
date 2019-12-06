@@ -1,0 +1,41 @@
+# Created on 2019-12-05T21:15:19.871
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2019-12-05T21:15:24.662
+Unexpected IOException: 8,1,com.qa.hubspot.tests.ContactsPageTest,setUp(com.qa.hubspot.tests.ContactsPageTest),null,Expected condition failed: waiting for title to contain "HubSpot Login". Current title: "app.hubspot.com" (tried for 15 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for title to contain "HubSpot Login". Current title: "app.hubspot.com" (tried for 15 second(s) with 500 milliseconds interval),ContactsPageTest.setUp:35 \00BB Timeout Expected condition failed: waiting for tit...,org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "HubSpot Login". Current title: "app.hubspot.com" (tried for 15 second(s) with 500 milliseconds interval)\000A\0009at com.qa.hubspot.tests.ContactsPageTest.setUp(ContactsPageTest.java:35)\000ACaused by: org.openqa.selenium.NoSuchWindowException: \000Ano such window: window was already closed\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Sandeeps-MacBook-Air.local'\002C ip: '127.0.0.1'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: /var/folders/fj/116hfs353pn...}\002C goog:chromeOptions: {debuggerAddress: localhost:59410}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: MAC\002C platformName: MAC\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 6cb4da753253c77077a0c30ecb065f1b\000A\0009at com.qa.hubspot.tests.ContactsPageTest.setUp(ContactsPageTest.java:35)\000A
+
+
+# Created on 2019-12-05T21:15:24.663
+Unexpected IOException: 9,1,com.qa.hubspot.tests.ContactsPageTest,verifyContactsPageTitleTest(com.qa.hubspot.tests.ContactsPageTest),null,Expected condition failed: waiting for title to contain "HubSpot Login". Current title: "app.hubspot.com" (tried for 15 second(s) with 500 milliseconds interval),null
+
+
+# Created on 2019-12-05T21:15:24.664
+Unexpected IOException with stream: verifyContactsPageTitleTest skipped!
+
+
+# Created on 2019-12-05T21:15:24.673
+Unexpected IOException: 8,1,com.qa.hubspot.tests.ContactsPageTest,verifyContactsPageTitleTest(com.qa.hubspot.tests.ContactsPageTest),null,no such window: window was already closed\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Sandeeps-MacBook-Air.local'\002C ip: '127.0.0.1'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: /var/folders/fj/116hfs353pn...}\002C goog:chromeOptions: {debuggerAddress: localhost:59410}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: MAC\002C platformName: MAC\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 6cb4da753253c77077a0c30ecb065f1b,null,no such window: window was already closed\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Sandeeps-MacBook-Air.local'\002C ip: '127.0.0.1'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: /var/folders/fj/116hfs353pn...}\002C goog:chromeOptions: {debuggerAddress: localhost:59410}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: MAC\002C platformName: MAC\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 6cb4da753253c77077a0c30ecb065f1b,ContactsPageTest.verifyContactsPageTitleTest \00BB NoSuchWindow no such window: wi...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: window was already closed\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Sandeeps-MacBook-Air.local'\002C ip: '127.0.0.1'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: /var/folders/fj/116hfs353pn...}\002C goog:chromeOptions: {debuggerAddress: localhost:59410}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: MAC\002C platformName: MAC\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 6cb4da753253c77077a0c30ecb065f1b\000A
+
+
+# Created on 2019-12-05T21:15:24.674
+Unexpected IOException with stream: verifyContactsPageTitleTest failed!
+
+
+# Created on 2019-12-05T21:15:24.723
+Unexpected IOException with stream: Test Suite is ending!
+
+
+# Created on 2019-12-05T21:15:24.760
+Unexpected IOException with stream: log4j:WARN No appenders could be found for logger (freemarker.cache).
+
+
+# Created on 2019-12-05T21:15:24.760
+Unexpected IOException with stream: log4j:WARN Please initialize the log4j system properly.
+
+
